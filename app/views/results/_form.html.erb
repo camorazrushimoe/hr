@@ -1,0 +1,17 @@
+<%= simple_form_for(@result) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :position %>
+    <%= f.input :salary %>
+    <%= f.input :hours %>
+    <%= f.input :start %>
+    <%= f.input :comment %>
+    <%= f.input :date %>
+    <%= f.input :resolution %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

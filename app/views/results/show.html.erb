@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Position:</strong>
+  <%= @result.position %>
+</p>
+
+<p>
+  <strong>Salary:</strong>
+  <%= @result.salary %>
+</p>
+
+<p>
+  <strong>Hours:</strong>
+  <%= @result.hours %>
+</p>
+
+<p>
+  <strong>Start:</strong>
+  <%= @result.start %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @result.comment %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @result.date %>
+</p>
+
+<p>
+  <strong>Resolution:</strong>
+  <%= @result.resolution %>
+</p>
+
+<%= link_to 'Edit', edit_result_path(@result) %> |
+<%= link_to 'Back', results_path %>

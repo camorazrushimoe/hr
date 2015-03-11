@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  position: MyString
+  salary: MyString
+  hours: 2015-03-03 15:54:47
+  start: 2015-03-03 15:54:47
+  comment: MyString
+  date: 2015-03-03 15:54:47
+  resolution: MyString
+
+two:
+  position: MyString
+  salary: MyString
+  hours: 2015-03-03 15:54:47
+  start: 2015-03-03 15:54:47
+  comment: MyString
+  date: 2015-03-03 15:54:47
+  resolution: MyString
